@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=latex 2022.6.13)  15 JUN 2022 18:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=latex 2022.6.13)  15 JUN 2022 18:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -609,8 +609,7 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \c@solution=\count289
 Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 30.
-
-No file notes_m.aux.
+ (./notes_m.aux)
 \openout1 = `notes_m.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
@@ -630,6 +629,7 @@ LaTeX Font Info:    ... okay on input line 30.
 LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 30.
 LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 3
 0.
+
 (/usr/share/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
@@ -691,9 +691,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--43
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./notes_m.aux) ) 
 Here is how much of TeX's memory you used:
- 8528 strings out of 478239
- 187832 string characters out of 5850482
- 452057 words of memory out of 5000000
+ 8530 strings out of 478239
+ 187856 string characters out of 5850482
+ 452048 words of memory out of 5000000
  26694 multiletter control sequences out of 15000+600000
  471871 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
