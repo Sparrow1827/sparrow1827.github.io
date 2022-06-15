@@ -1,0 +1,77 @@
+\documentclass[a4paper]{article}
+\usepackage{amsmath, amsfonts, graphicx, chngcntr, textgreek, siunitx, answers, enumitem}
+\newcounter{problem}
+\newcounter{solution}
+\newcommand\Problem{%
+  \stepcounter{problem}%
+  \textbf{\theproblem.}~%
+  \setcounter{solution}{0}%
+}
+
+\graphicspath{ {./images/} }
+
+\newcommand\TheSolution{%
+  \textbf{Solution:}\\%
+}
+
+\newcommand\ASolution{%
+  \stepcounter{solution}%
+  \textbf{Solution \thesolution:}\\%
+}
+\parindent 0in
+\parskip 1em
+\counterwithin{equation}{problem}
+\begin{document}
+
+\section{Kinematics}
+
+\Problem A motorboat going going downstream overcame a raft at point $\emph{A}$; $\tau$ = 60 min later it turned back and after some time passed the raft at a distance $l = 6.0$ km from the point $\emph{A}$. Find flow velocity assuming the duty of the engine to be constant.
+
+\TheSolution Let u be the flow velocity and v be velocity of boat in still water, 
+	\begin{equation} \frac{l}{u}=\tau + \frac{(u+v)\tau-l}{v-u}  \end{equation}
+	\begin{equation} u=\frac{l}{2\tau}=\frac{6}{2\cdot1}=3 \ \textnormal{km/hr} \end{equation} 
+	
+\Problem  A point traversed half the distance with a velocity $v_0$. The remaining part of the distance was covered with velocity $v_1$ for half the time, and with velocity $v_2$ for the other half of the time. Find the mean velocity of the point averaged over the whole time of motion. 
+
+\TheSolution \begin{equation} v_{av} = \frac{2\cdot v_0\cdot\frac{v_1+v_2}{2}}{v_0 + \frac{v_1+v_2}{2}} \end{equation}
+
+\Problem A car starts moving rectilinearly, first with acceleration $w = 5.0$ $ms^{-2}$ (the initial velocity is equal to zero), then uniformly, and finally, decelerating at the same rate $w$, comes to a stop. The total time of motion equals $\tau = 25$ s. The average velocity during that time is equal to $<v> = 72$ kmph. How long does the car move uniformly?
+
+\TheSolution Let the time for which car moves with acceleration be $t$ since they are equal and let total time be $T$,
+		\begin{equation} S = \frac{1}{2}wt^2 + wt \cdot (T-2t)+ wt^2-\frac{1}{2}wt^2 \end{equation}
+		\begin{equation} S = wtT-wt^2 \end{equation}
+
+	     Let the average velocity be $v$,
+		\begin{equation} v = \frac{wtT-wt^2}{T} \end{equation}
+		\begin{equation} t^2 \cdot w -t \cdot wT + vT =0 \end{equation}
+		\begin{equation} t = \frac{wT + \sqrt{wT^2-4vwT}}{2w} \end{equation}
+		\begin{equation} t= 5, 20 \ \textnormal{sec} \end{equation}
+		$t=20$ sec will be rejected as $2t > T$
+		so time for which the object moves uniformly $= T - 2t = 25 - 2 \cdot 5 = 15 \ \textnormal{sec}.$
+
+\Problem Two particles, $1$ and $2$, move with constant velocities $\vec{v_1}$ and $\vec{v_2}$. At the initial moment, their radius vectors are equal to $\vec{r_1}$ and $\vec{r_2}$. How must these four vectors be interrelated for the particles to collide?
+
+\TheSolution For these particles to collide,
+		\begin{equation} \vec{s_1}=\vec{s_2} \end{equation}
+		\begin{equation} \vec{r_1} + \vec{v_1} \cdot t = \vec{r_2} + \vec{v_2} \cdot t \end{equation}
+		\begin{equation} \vec{r_1}- \vec{r_2}= t(\vec{v_2}-\vec{v_1}) \end{equation}
+			\begin{equation} \frac{\vec{r_1}- \vec{r_2}}{|\vec{r_1}-\vec{r_2}|}= \frac{\vec{v_2}-\vec{v_1}}{|\vec{v_2}-\vec{v_1}|} \end{equation}
+
+\Problem A ship moves along the equator to the east with velocity $v_0 = 30$ km/hour. The southeastern wind blows at an angle $\phi = 60^{\circ}$ to the equator with velocity $v = 15$ km/hour. Find the wind velocity $v'$ relative to the ship and the angle $\phi'$ between the equator and the wind direction in the reference frame fixed to the ship.
+
+\TheSolution \includegraphics[width=4cm, height=2.8cm]{/home/sparrow/Downloads/geogebra-export.png}
+\begin{equation}  \end{equation}
+
+\Problem If there are $n$ ants on each vertex of $n$ sided regular polygon with side length $a$. If the first moves towards the second, second moves towards third, and so on then if they move with speed $v$, how long will it take them to converge at a single point?
+
+\TheSolution	\begin{equation} T = \frac{a}{v+v\cdot cos(\frac{\pi (n-2)}{n})} \end{equation}
+		\begin{equation} T = \frac{a}{v-v\cdot cos(\frac{2\pi}{n})} \end{equation}		
+  
+\Problem Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.        
+\begin{itemize}
+  \item[a.)] Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.
+  \item[b.)] Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.
+\end{itemize}
+
+\TheSolution 
+\end{document}
