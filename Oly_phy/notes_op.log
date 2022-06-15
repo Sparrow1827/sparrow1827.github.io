@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=latex 2022.6.13)  15 JUN 2022 18:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=latex 2022.6.13)  15 JUN 2022 18:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**notes.tex
-(./notes.tex
+**notes_op.tex
+(./notes_op.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-04-10>
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -112,37 +112,6 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen148
 \Gin@req@width=\dimen149
-)
-(/usr/share/texmf-dist/tex/latex/mathtools/mathtools.sty
-Package: mathtools 2022/02/07 v1.28a mathematical typesetting tools
-
-(/usr/share/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count271
-\calc@Bcount=\count272
-\calc@Adimen=\dimen150
-\calc@Bdimen=\dimen151
-\calc@Askip=\skip52
-\calc@Bskip=\skip53
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count273
-\calc@Cskip=\skip54
-)
-(/usr/share/texmf-dist/tex/latex/mathtools/mhsetup.sty
-Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
-)
-\g_MT_multlinerow_int=\count274
-\l_MT_multwidth_dim=\dimen152
-\origjot=\skip55
-\l_MT_shortvdotswithinadjustabove_dim=\dimen153
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen154
-\l_MT_above_intertext_sep=\dimen155
-\l_MT_below_intertext_sep=\dimen156
-\l_MT_above_shortintertext_sep=\dimen157
-\l_MT_below_shortintertext_sep=\dimen158
-\xmathstrut@box=\box52
-\xmathstrut@dim=\dimen159
 )
 (/usr/share/texmf-dist/tex/latex/chngcntr/chngcntr.sty
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
@@ -518,10 +487,10 @@ Package textgreek Info: Loaded fontmap: {eur/*/*}{U/eur/*/*} {phv/*/*}{U/psy/*/
 )
 (/usr/share/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2022-04-04 v3.0.50 A comprehensive (SI) units package
-\l__siunitx_angle_tmp_dim=\dimen160
-\l__siunitx_angle_marker_box=\box53
-\l__siunitx_angle_unit_box=\box54
-\l__siunitx_compound_count_int=\count275
+\l__siunitx_angle_tmp_dim=\dimen150
+\l__siunitx_angle_marker_box=\box52
+\l__siunitx_angle_unit_box=\box53
+\l__siunitx_compound_count_int=\count271
 
 (/usr/share/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
@@ -529,7 +498,7 @@ Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
 
 (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count276
+\etb@tempcnta=\count272
 )
 (/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
@@ -548,23 +517,23 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 ))
-\l__siunitx_number_exponent_fixed_int=\count277
-\l__siunitx_number_min_decimal_int=\count278
-\l__siunitx_number_min_integer_int=\count279
-\l__siunitx_number_round_precision_int=\count280
-\l__siunitx_number_group_minimum_int=\count281
-\l__siunitx_table_tmp_box=\box55
-\l__siunitx_table_tmp_dim=\dimen161
-\l__siunitx_table_column_width_dim=\dimen162
-\l__siunitx_table_integer_box=\box56
-\l__siunitx_table_decimal_box=\box57
-\l__siunitx_table_before_box=\box58
-\l__siunitx_table_after_box=\box59
-\l__siunitx_table_before_dim=\dimen163
-\l__siunitx_table_carry_dim=\dimen164
-\l__siunitx_unit_tmp_int=\count282
-\l__siunitx_unit_position_int=\count283
-\l__siunitx_unit_total_int=\count284
+\l__siunitx_number_exponent_fixed_int=\count273
+\l__siunitx_number_min_decimal_int=\count274
+\l__siunitx_number_min_integer_int=\count275
+\l__siunitx_number_round_precision_int=\count276
+\l__siunitx_number_group_minimum_int=\count277
+\l__siunitx_table_tmp_box=\box54
+\l__siunitx_table_tmp_dim=\dimen151
+\l__siunitx_table_column_width_dim=\dimen152
+\l__siunitx_table_integer_box=\box55
+\l__siunitx_table_decimal_box=\box56
+\l__siunitx_table_before_box=\box57
+\l__siunitx_table_after_box=\box58
+\l__siunitx_table_before_dim=\dimen153
+\l__siunitx_table_carry_dim=\dimen154
+\l__siunitx_unit_tmp_int=\count278
+\l__siunitx_unit_position_int=\count279
+\l__siunitx_unit_total_int=\count280
 
 (/usr/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
@@ -572,20 +541,20 @@ Package: expl3 2022-04-10 L3 programming layer (loader)
 
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-04-14 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count285
-\l__pdf_internal_box=\box60
+\l__color_backend_stack_int=\count281
+\l__pdf_internal_box=\box59
 ))
 Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
 )
 (/usr/share/texmf-dist/tex/latex/tools/array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen165
-\ar@mcellbox=\box61
-\extrarowheight=\dimen166
+\col@sep=\dimen155
+\ar@mcellbox=\box60
+\extrarowheight=\dimen156
 \NC@list=\toks22
-\extratabsurround=\skip56
-\backup@length=\skip57
-\ar@cellbox=\box62
+\extratabsurround=\skip52
+\backup@length=\skip53
+\ar@cellbox=\box61
 ))
 (/usr/share/texmf-dist/tex/latex/answers/answers.sty
 Package: answers 2014/08/24 v2.16 Production of solution sheets in LaTeX2e
@@ -598,55 +567,55 @@ Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 ))
 (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip58
-\enit@outerparindent=\dimen167
+\labelindent=\skip54
+\enit@outerparindent=\dimen157
 \enit@toks=\toks25
-\enit@inbox=\box63
-\enit@count@id=\count286
-\enitdp@description=\count287
+\enit@inbox=\box62
+\enit@count@id=\count282
+\enitdp@description=\count283
 )
-\c@problem=\count288
-\c@solution=\count289
+\c@problem=\count284
+\c@solution=\count285
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 30.
- (./notes.aux)
-\openout1 = `notes.aux'.
+h' as default language. on input line 24.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 30.
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 3
-0.
+No file notes_op.aux.
+\openout1 = `notes_op.aux'.
 
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 24.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 2
+4.
 (/usr/share/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    ... okay on input line 24.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count290
-\scratchdimen=\dimen168
-\scratchbox=\box64
-\nofMPsegments=\count291
-\nofMParguments=\count292
+\scratchcounter=\count286
+\scratchdimen=\dimen158
+\scratchbox=\box63
+\nofMPsegments=\count287
+\nofMParguments=\count288
 \everyMPshowfont=\toks26
-\MPscratchCnt=\count293
-\MPscratchDim=\dimen169
-\MPnumerator=\count294
-\makeMPintoPDFobject=\count295
+\MPscratchCnt=\count289
+\MPscratchDim=\dimen159
+\MPnumerator=\count290
+\makeMPintoPDFobject=\count291
 \everyMPtoPDFconversion=\toks27
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -671,45 +640,63 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 30.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
+or `english'. on input line 24.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 28.
 
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
 
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 
  []
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./notes.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+</home/sparrow/Downloads/geogebra-export.png, id=16, 990.70125pt x 503.8825pt>
+File: /home/sparrow/Downloads/geogebra-export.png Graphic file (type png)
+<use /home/sparrow/Downloads/geogebra-export.png>
+Package pdftex.def Info: /home/sparrow/Downloads/geogebra-export.png  used on i
+nput line 62.
+(pdftex.def)             Requested size: 113.79974pt x 79.66176pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+
+ []
+
+[2 </home/sparrow/Downloads/geogebra-export.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+ []
+
+[3] (./notes_op.aux) ) 
 Here is how much of TeX's memory you used:
- 8530 strings out of 478239
- 187834 string characters out of 5850482
- 452044 words of memory out of 5000000
- 26694 multiletter control sequences out of 15000+600000
- 471871 words of font info for 39 fonts, out of 8000000 for 9000
+ 7929 strings out of 478239
+ 176876 string characters out of 5850482
+ 437079 words of memory out of 5000000
+ 26100 multiletter control sequences out of 15000+600000
+ 472915 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,6n,79p,460b,513s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/s
-hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
-></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb>
-Output written on notes.pdf (2 pages, 82473 bytes).
+ 74i,5n,79p,463b,513s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
+x10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></u
+sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmti10.pfb>
+Output written on notes_op.pdf (3 pages, 121961 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
- 30 compressed objects within 1 object stream
+ 65 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
