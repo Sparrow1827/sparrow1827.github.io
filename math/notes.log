@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=latex 2022.6.13)  15 JUN 2022 18:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=latex 2022.6.13)  15 JUN 2022 18:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -693,7 +693,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--43
 Here is how much of TeX's memory you used:
  8530 strings out of 478239
  187834 string characters out of 5850482
- 452053 words of memory out of 5000000
+ 452044 words of memory out of 5000000
  26694 multiletter control sequences out of 15000+600000
  471871 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -706,7 +706,7 @@ s/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
 ></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy10.pfb>
-Output written on notes.pdf (2 pages, 81937 bytes).
+Output written on notes.pdf (2 pages, 82473 bytes).
 PDF statistics:
  51 PDF objects out of 1000 (max. 8388607)
  30 compressed objects within 1 object stream
