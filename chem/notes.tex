@@ -1,0 +1,31 @@
+\documentclass[a4paper]{article}
+\usepackage{amsmath, amsfonts, graphicx, mathtools, chngcntr, textgreek, siunitx, answers, enumitem}
+\newcounter{problem}
+\newcounter{solution}
+\newcommand\Problem{%
+  \stepcounter{problem}%
+  \textbf{\theproblem.}~%
+  \setcounter{solution}{0}%
+}
+
+\graphicspath{ {./images/} }
+
+\newcommand\TheSolution{%
+  \textbf{Solution:}\\%
+}
+
+\newcommand\ASolution{%
+  \stepcounter{solution}%
+  \textbf{Solution \thesolution:}\\%
+}
+\parindent 0in
+\parskip 1em
+\counterwithin{equation}{problem}
+\newcommand\be{%
+  \begin{equation}%
+}
+\newcommand\ee{%
+  \end{equation}%
+}
+\begin{document} 
+\end{document}
