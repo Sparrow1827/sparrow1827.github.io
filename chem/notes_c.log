@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=latex 2022.6.13)  15 JUN 2022 18:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=latex 2022.6.13)  16 JUN 2022 21:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -609,8 +609,7 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \c@solution=\count289
 Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 30.
-
-No file notes_c.aux.
+ (./notes_c.aux)
 \openout1 = `notes_c.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
@@ -630,6 +629,7 @@ LaTeX Font Info:    ... okay on input line 30.
 LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 30.
 LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 3
 0.
+
 (/usr/share/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
@@ -672,19 +672,24 @@ nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `english'. on input line 30.
- (./notes_c.aux) ) 
-Here is how much of TeX's memory you used:
- 8488 strings out of 478239
- 187248 string characters out of 5850482
- 441057 words of memory out of 5000000
- 26672 multiletter control sequences out of 15000+600000
- 469259 words of font info for 28 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 74i,1n,79p,462b,513s stack positions out of 5000i,500n,10000p,200000b,80000s
+ [1
 
-No pages of output.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+(./notes_c.aux) ) 
+Here is how much of TeX's memory you used:
+ 8496 strings out of 478239
+ 187337 string characters out of 5850482
+ 442057 words of memory out of 5000000
+ 26674 multiletter control sequences out of 15000+600000
+ 469864 words of font info for 30 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 74i,5n,79p,462b,513s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.p
+fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on notes_c.pdf (1 page, 19236 bytes).
 PDF statistics:
- 0 PDF objects out of 1000 (max. 8388607)
+ 18 PDF objects out of 1000 (max. 8388607)
+ 10 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
